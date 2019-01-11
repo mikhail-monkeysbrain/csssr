@@ -1,0 +1,12 @@
+include ../modules/_modules
++module(MODULE.DEFINE_VIEW, {title: 'CSSSR', id: 0, view: 'Index'})
+
+block content
+  .page.page--index(data-view!='<?=PAGE_JS_VIEW?>')
+    .container
+      include ../blocks/input__text
+      include ../blocks/input__checkbox
+      include ../blocks/input__range
+      include ../blocks/input__textarea
+      include ../blocks/input__radio
+      include ../blocks/date

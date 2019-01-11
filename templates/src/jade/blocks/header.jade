@@ -1,0 +1,9 @@
+mixin header(data)
+  - data = data || {}
+  header.header
+    .container.header--container
+      a(href="javascript:void(0)").header--logo
+        img(src="/templates/build/images/content/logo.png", alt="CSSSR").header--img
+      img(src="/templates/build/images/content/stamp.png", alt="Секретно").stamp
+      h1.header--heading
+        img(src="/templates/build/images/content/heading.png", alt="ДЕЛО")
